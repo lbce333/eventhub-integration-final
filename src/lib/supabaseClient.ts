@@ -10,7 +10,7 @@ if (!_supabase) {
         persistSession: true,
         autoRefreshToken: true,
         detectSessionInUrl: true,
-        storageKey: 'sb-tvpaanmxhjhwljjfsuvd-auth-token',
+        storageKey: 'sb-gtisgcqqyfvuueocsstz-auth-token',
         storage: typeof window !== 'undefined' ? window.localStorage : undefined,
       },
     }
